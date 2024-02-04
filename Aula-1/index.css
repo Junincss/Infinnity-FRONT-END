@@ -1,0 +1,16 @@
+body{
+    background: fixed;
+    background-color: aquamarine;
+}
+
+.dicas-professor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    letter-spacing: 2.3px;
+    font-style: italic;
+    text-decoration: none;
+}
+a{
+    margin: 5px;
+}
