@@ -1,16 +1,156 @@
-body{
+/* body{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
     background: fixed;
-    background-color: aquamarine;
+    background-color: black;
+} */
+
+body {
+    /* background-color: lightblue; */
+    display: flex;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
+    background: fixed;
+    /* background-color: black; */
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+        background-color: lightgreen;
+        display: flex;
+        text-align: center;
+        align-self: center;
+        flex-direction: column;
+        background: fixed;
+    }
+    a:hover{  
+        text-decoration: none;
+        text-align: center;
+        align-self: center;
+        color: rgb(0, 0, 0);
+        margin: 5px;
+        width: 40vw;
+        height: 2vh;
+        background-color: rgb(8, 118, 122);
+        border-radius: 6px;
+        margin-top: 17px;
+        margin-bottom: 15px;
+        
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        margin: 4px;
+        width: 8vw;
+        height: 4vh;
+        border-radius: 8px;
+        /* background-repeat: repeat; */
+        justify-content: space-around;
+    
+    }
+    .clicaveis{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagens{
+        height: 36vh;
+        /* margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px; */
+    }
+    .testback{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 10px;
+        height: 4.5vh;
+        background-color: rgba(255, 255, 255, 0.507);
+        border-radius: 6%;
+    }
+
+  }
+  
+  @media screen and (min-width: 2000px) {
+    body {
+      background-color: lavender;
+    }
+  }
+.text{
+    color: aliceblue;
 }
 
 .dicas-professor{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     letter-spacing: 2.3px;
     font-style: italic;
     text-decoration: none;
+    width: 50vw;
+    height: 40vh;
+   
 }
-a{
+a{  
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    color: rgb(248, 248, 248);
     margin: 5px;
+    width: 40vw;
+    height: 2vh;
+    background-color: rgb(57, 8, 122);
+    border-radius: 6px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    
 }
+a:hover{  
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    width: 40vw;
+    height: 2vh;
+    background-color: rgb(8, 118, 122);
+    border-radius: 6px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    
+}
+img{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 8px;
+    /* background-repeat: repeat; */
+    justify-content: space-around;
+
+}
+.clicaveis{
+    display: flex;
+    flex-direction: column;
+}
+.imagens{
+    height: 36vh;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px; */
+}
+.testback{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 10px;
+    height: 4.5vh;
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 6%;
+}
+
