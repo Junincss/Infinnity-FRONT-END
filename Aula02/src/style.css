@@ -1,0 +1,81 @@
+body{
+    display: block;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 6vw;
+    background-color: bisque;
+
+}
+.catalogo{
+    width: 90%;
+}
+hr{
+    border:solid 0.01px;
+
+    border-color: black; 
+   }
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 3.5px;
+    width: 40vh;
+}
+.title-page{
+    font-size: 50px;
+}
+
+.gato{
+    width: 90%;
+}
+
+.label{
+    margin-bottom: 10vh;
+}
+
+.input{
+    background-color: blanchedalmond;
+    width: 65vh;
+    height: 3.7vh;
+    border-radius: 8px;
+    font-size: larger;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+textarea{
+    font-size: larger;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+}
+img{
+    width: 1600px;
+    height: 300px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+.button{
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 50px;
+    padding-left: -3px;
+    padding-right: 10px;
+    text-indent: 1px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.button:hover{
+    background-color: rgb(158, 111, 40);
+    width: 150px;
+    height: 50px;
+    padding-left: -3px;
+    padding-right: 10px;
+    text-indent: 1px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
