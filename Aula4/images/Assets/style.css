@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #f0f0f0;
+    
+    
+}
+.ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 20em;
+}
+
+.bolred:before{
+    content: '\2022';
+    margin: 0 4px;
+    color: red;
+}
+#apagar{
+    list-style: none;
+}
+
+.teaser{
+
+}
